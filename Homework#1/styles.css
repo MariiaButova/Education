@@ -1,0 +1,193 @@
+.black {
+    background-color: blue;
+}
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.navbar-light .navbar-brand {
+    color: #1695a3;
+}
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 14px;
+}
+header {
+    background: url("img/sea.jpg");
+    width: 100%;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+header .logo {
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+h1 {
+    margin-bottom: 50px;
+}
+.btn-primary {
+    border-radius: 25px;
+    display: inline-block;
+    line-height: 1;
+    padding: 14px 28px 13px 28px;
+    border: 2px solid #eb7f00;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-white {
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+}
+.btn-white:hover {
+    border: 2px soild #fff;
+    background: #ffffff;
+    color: #000;
+}
+.btn-filled {
+    background: #eb7f00;
+    color: #fff;
+}
+.btn-filled:hover {
+    background: #eb7f00;
+    border: 2px solid #eb7f00;
+}
+.projects .row {
+    margin: 0;
+    padding: 0;
+}
+.projects .col-md-4 {
+    margin: 0;
+    padding: 0;
+}
+.projects img {
+    width: 100%;
+    height: 48vh;
+}
+.services {
+    padding: 80px 0 40px 0;
+}
+.services h2 {
+   font-size: 32px;
+   line-height: 4px;
+   font-weight: normal;
+   margin-bottom: 48px; 
+}
+.services-info {
+    margin-bottom: 40px;
+}
+.services h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.team {
+    background: #f4f4f4;
+    padding: 80px 0 0 0;
+}
+.team h2 {
+    font-size: 32px;
+   line-height: 4px;
+   font-weight: normal;
+   margin-bottom: 48px; 
+}
+.team img {
+    border-radius: 100px;
+    height: 50%;
+    margin-bottom: 20px;
+}
+.action-banner {
+    padding: 140px 0;
+    position: relative;
+    background-image: url(img/work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.action-banner .container {
+    position: relative;
+    z-index: 3;
+}
+.action-banner:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    content: "";
+    opacity: 0.8;
+    z-index: 2;
+    background-color: #1695a3;
+    left: 0;
+}
+.action-banner h3 {
+    font-weight: normal;
+    margin: 25px 0;
+}
+.instagram-fead {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+.instagram-fead span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.twinter-fead {
+    padding: 80px 0;
+}
+.twinter-fead i {
+    display: inline-block;
+    color: #1695a3;
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+.social-bar .row {
+    margin: 0;
+    padding: 0;
+}
+.social-bar .col-md-4 {
+    margin: 0;
+    padding: 0;
+}
+.social-bar a {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 30px;
+    color: #ffffff;
+    width: 100%;
+}
+.social-bar .facebook {
+    background-color: #3b5998;
+}
+.social-bar .instagram {
+    background-color: #ea4c89;
+}
+.social-bar .youtube {
+    background-color: #ff0000;
+}
+footer {
+    padding: 80px 0;
+    background-color: #225378;
+    color: #ffffff;
+}
+footer li {
+    display: inline-block;
+    margin-right: 40px;
+}
+footer a {
+    font-size: 24px;
+    color: #ffffff;
+}
+.copyright {
+    margin-top: 30px;
+}
